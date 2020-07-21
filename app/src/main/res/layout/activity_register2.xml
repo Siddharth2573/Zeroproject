@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EE7A7070"
+    tools:context=".Register2">
+
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="11dp"
+        android:text="WORK IN FORM"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/full"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="151dp"
+        android:autofillHints="name"
+        android:hint=" Full Name (पुरा नाम)"
+        android:inputType="text"
+        android:orientation="vertical"
+        android:textColor="#000000"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/idspinner4"
+        android:layout_width="103dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="27dp"
+        android:backgroundTint="#ffffff" />
+
+    <EditText
+        android:id="@+id/phone1"
+        android:layout_width="221dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/full"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="40dp"
+        android:hint=" Mobile number (मोबाइल)"
+        android:inputType="phone"
+        android:textColor="#000000"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/idspinner5"
+        android:layout_width="174dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/phone1"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="22dp"
+        android:backgroundTint="#ffffff"/>
+
+    <Spinner
+        android:id="@+id/idspinner6"
+        android:layout_width="191dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/phone1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="27dp"
+        android:layout_toEndOf="@+id/idspinner5"
+        android:backgroundTint="#ffffff" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="140dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/idspinner5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="131dp"
+        android:background="#BA12D50B"
+        android:text="SUBMIT"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="177dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="129dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

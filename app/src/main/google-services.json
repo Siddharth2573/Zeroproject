@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "929259188796",
+    "firebase_url": "https://zeroproject-ce2fd.firebaseio.com",
+    "project_id": "zeroproject-ce2fd",
+    "storage_bucket": "zeroproject-ce2fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929259188796:android:fafda374ada26944a50939",
+        "android_client_info": {
+          "package_name": "com.example.zeroproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929259188796-7lpadv6por4endsb4pnba0plpf2vu2jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCr4usxAPaPXagFlZGN6wqdTHgzn0GqWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929259188796-7lpadv6por4endsb4pnba0plpf2vu2jo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
